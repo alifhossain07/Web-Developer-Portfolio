@@ -34,18 +34,33 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
-}
+} 
 /* Header Related styles*/
 .header-class
 {
     background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 900px bottom;
+    
 }
 /* Banner Related styles*/
 .banner
 {
-   padding: 30px 280px 30px 350px;
-   border: 1px solid black;
+   padding: 30px 280px 0px 350px;
+   
    display: flex; 
    justify-content:space-around;
    align-items: center;
+}
+.banner p{
+    font-size: 16px;
+}
+.banner-greeting 
+{
+    font-size: 25px;
+}
+.banner-title
+{
+    font-size: 35px;
 }
