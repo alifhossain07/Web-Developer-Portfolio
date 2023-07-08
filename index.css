@@ -5,15 +5,14 @@ body
 }
 .btn-primary
 {
-    width: 100px;
-    height: 40px;
+    
     border-radius: 5px;
     background: #FD6E0A;
     border: 2px solid #FD6E0A;
     color: white;
     font-size: 16px;
     font-weight: 550;
-
+    padding: 15px 35px;
 }
 /* nav realted styles*/
 nav
@@ -21,7 +20,7 @@ nav
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 50px;
+    
 }
 nav > ul
 {
@@ -41,16 +40,12 @@ nav a{
 {
     background-color: #FFF8F3;
 }
+/* Banner Related styles*/
 .banner
 {
-   
-    margin-left: 20px;
-    display: flex;
-    gap: 60px;
-    align-items: center;
-    padding: 30px 30px 30px 150px;
-}
-.banner-info
-{
-    
+   padding: 30px 280px 30px 350px;
+   border: 1px solid black;
+   display: flex; 
+   justify-content:space-around;
+   align-items: center;
 }
