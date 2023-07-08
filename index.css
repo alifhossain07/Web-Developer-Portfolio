@@ -83,6 +83,10 @@ nav a{
     border-radius: 15px;
     background:#FFF8F3;;
 }
+.i-do
+{
+    margin-bottom:70px ;
+}
 .section-title
 {
 color:#181818 ;
@@ -126,3 +130,52 @@ line-height: normal;
     border-radius: 15px;
     box-shadow: 1px 1px 30px rgb(231, 181, 181);
 }
+.summaryholder
+{
+    display:flex;
+    flex-direction: row;
+    
+    margin: auto;
+    gap: 40px;
+    max-width: 1100px;
+    box-shadow: 1px 1px 30px rgb(231, 181, 181);
+    padding: 40px;
+    border-radius: 20px;
+}
+.experience
+{
+    
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 30px rgb(161, 233, 238);
+}
+.education
+{
+    
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 30px rgb(161, 233, 238);
+}
+.btn-primary1{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    color: white;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 15px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.buttonalign
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
