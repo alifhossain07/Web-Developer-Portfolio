@@ -2,7 +2,7 @@
 body
 {
     font-family: 'Open Sans', sans-serif;
-    background-color:#FFF8F3
+    background-color:#FFF8F3;
 }
 main
 {
@@ -134,9 +134,9 @@ line-height: normal;
 {
     display:flex;
     flex-direction: row;
-    
-    margin: auto;
-    gap: 40px;
+     margin: auto;
+    gap: 40px
+   ;
     max-width: 1100px;
     box-shadow: 1px 1px 30px rgb(231, 181, 181);
     padding: 40px;
@@ -146,14 +146,14 @@ line-height: normal;
 {
     
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 1px 1px 30px rgb(161, 233, 238);
 }
 .education
 {
     
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 1px 1px 30px rgb(161, 233, 238);
 }
 .btn-primary1{
@@ -166,7 +166,7 @@ line-height: normal;
     padding: 15px 35px;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 .buttonalign
 {
@@ -175,7 +175,39 @@ line-height: normal;
     justify-content: center;
 }
 
-
-
+.imgdiv
+{
+    display: flex;
+    gap:20px;
+}
+.ftr
+{
+    
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px;
+}
+.footer-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    margin-right: 80px;
+}
+.footer-info
+{
+    max-width: 500px;
+}
+.input-form input, textarea
+{
+ display:block;
+ margin-bottom: 16px;
+ padding: 15px 20px;
+ 
+ border-radius: 8px;
+ width: 100%;
+ border: 0;
+ box-shadow: 1px 1px 30px rgb(238, 163, 161);
+}
 
 
