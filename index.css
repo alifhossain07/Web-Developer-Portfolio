@@ -2,7 +2,8 @@
 body
 {
     font-family: 'Open Sans', sans-serif;
-    background-color:#FFF8F3;
+    background-color:#1b1a1a;
+    color: white;
 }
 main
 {
@@ -26,12 +27,14 @@ nav
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #1B1A1A;
     
 }
 nav > ul
 {
     display: flex;
     align-items: center;
+    
 }
 nav li{
     list-style: none;
@@ -39,26 +42,29 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color: #474747;
+    color: #ffffff;
 } 
 /* Header Related styles*/
-.header-class
-{
-    background-color: #FFF8F3;
-    background-image: url(images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: 900px bottom;
-    
-    
-}
+
 /* Banner Related styles*/
 .banner
 {
-   padding: 30px 280px 0px 350px;
-   
+   padding: 30px 280px 0px 280px;
+   background-image: url(images/header_bg.png);
+   background-repeat: no-repeat;
+   background-position: 770px bottom;
+   background-color: #1B1A1A;
    display: flex; 
    justify-content:space-around;
    align-items: center;
+}
+.header-class
+{
+    background-color: #FFF8F3;
+    
+   
+    
+    
 }
 .banner p{
     font-size: 16px;
@@ -81,7 +87,7 @@ nav a{
 {
     padding:100px; 
     border-radius: 15px;
-    background:#FFF8F3;;
+    background:#1B1A1A;
 }
 .i-do
 {
@@ -89,7 +95,7 @@ nav a{
 }
 .section-title
 {
-color:#181818 ;
+color:white ;
 text-align: center;
 font-size: 40px;
 font-style: normal;
@@ -125,7 +131,7 @@ line-height: normal;
 }
 .skill-box
 {
-    background-color: white;
+    background-color: black;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 1px 1px 30px rgb(231, 181, 181);
@@ -207,7 +213,7 @@ line-height: normal;
  border-radius: 8px;
  width: 100%;
  border: 0;
- box-shadow: 1px 1px 30px rgb(238, 163, 161);
+ box-shadow: 1px 1px 15px rgb(238, 163, 161);
 }
 
 
